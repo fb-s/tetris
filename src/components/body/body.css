@@ -1,0 +1,74 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.hide {
+	display: none !important;
+}
+
+body.black {
+	background-color: #444;
+}
+
+body.white {
+	background-color: #eee;
+}
+
+body.black .container {
+	background-color: #999;
+}
+
+body.white .container {
+	background-color: #aaa;
+}
+
+body .title {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body .main {
+  margin: 0 auto;
+}
+
+body .start,
+body .stop {
+	font-size: 1em;
+	color: #FFCC00;
+}
+
+body .btns div:hover {
+	color: #FF0000;
+	cursor: pointer;
+}
+
+body .btns div {
+  float: left;
+  padding: 4px;
+  margin: 2px;
+}
+
+body .main canvas {
+  display: block;
+  border: 4px solid white;
+}
+
+.github {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+  color: gray;
+}

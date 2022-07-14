@@ -1,0 +1,25 @@
+.brick {
+	box-sizing: border-box;
+    width: calc(100% * (1/10));
+	flex: 1 0 auto;
+    height:auto;
+}
+
+.brick:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+.brick:hover {
+	background-color: blue;
+  color: #99d;
+}
+
+.brick.line {
+	background-color: brown;
+}
+
+.brick.cross {
+	background-color: coral;
+}

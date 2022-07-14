@@ -1,0 +1,31 @@
+h1 {
+	color: #FFCC00;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		color: #FFCC00
+	}
+	20% {
+		color: #FFC000;
+	}
+	40% {
+		color: #FF9000;
+	}
+	50% {
+		color: #FF0000;
+		
+	}
+	60% {
+		color: #FF9000;
+		
+	}
+	80% {
+		color: #FFC000;
+		
+	}
+	100% {
+		color: #FFCC00
+	}
+}
